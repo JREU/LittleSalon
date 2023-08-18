@@ -15,10 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@admin/customer/data-access": [
+        "libs/admin/customer/data-access/src/index.ts"
+      ],
+      "@admin/customer/details": [
+        "libs/admin/customer/feature/feature-details/src/index.ts"
+      ],
       "@admin/customer/list": [
         "libs/admin/customer/feature/feature-list/src/index.ts"
       ],
-      "@admin/customer/shell": ["libs/admin/customer/shell/src/index.ts"]
+      "@admin/customer/models": ["libs/admin/customer/models/src/index.ts"],
+      "@admin/customer/shell": ["libs/admin/customer/shell/src/index.ts"],
+      "@shared/models": ["libs/shared/models/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

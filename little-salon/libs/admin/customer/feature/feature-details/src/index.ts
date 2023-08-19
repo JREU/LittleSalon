@@ -1,1 +1,1 @@
-export * from './lib/feature-details.module';
+export * from './lib/details.component';

@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   selector: 'little-salon-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.scss'],
+  standalone: true
 })
 export class DetailsComponent {}

@@ -6,11 +6,11 @@ export const shellRoutes: Route[] = [
         children: [
             {
                 path: '',
-                loadChildren: () => import('@admin/customer/list').then(m => m.FeatureListModule)
+                loadComponent: () => import('@admin/customer/list').then(m => m.ListComponent)
             },
             {
                 path: ':customerId',
-                loadChildren: () => import('@admin/customer/details').then(m => m.FeatureDetailsModule)
+                loadComponent: () => import('@admin/customer/details').then(m => m.DetailsComponent)
             }
         ]
     }

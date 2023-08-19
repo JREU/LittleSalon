@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@nx/devkit": "^16.7.1",
-    "@nx/eslint-plugin": "^16.7.1"
-  }
-}

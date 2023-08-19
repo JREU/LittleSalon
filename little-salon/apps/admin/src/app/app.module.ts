@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { ShellModule } from '@admin/customer/shell';
+import { AdminShellModule } from '@admin/shell';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, ShellModule],
+  imports: [BrowserModule, AdminShellModule],
   providers: [],
   bootstrap: [AppComponent],
 })

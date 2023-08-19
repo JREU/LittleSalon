@@ -22,11 +22,11 @@
 
               // Type constraints
               { "sourceTag": "type:app", "onlyDependOnLibsWithTags": ["type:shell"] },
-              { "sourceTag": "type:shell", "onlyDependOnLibsWithTags": ["type:feature"] },
-              { "sourceTag": "type:feature", "onlyDependOnLibsWithTags": ["type: feature", "type:data-access", "type: ui", "type: utils", "type: models"] },
-              { "sourceTag": "type:data-access", "onlyDependOnLibsWithTags": ["type:data-access", "type:models", "type: utils"] },
-              { "sourceTag": "type:ui", "onlyDependOnLibsWithTags": ["type:ui", "type:models", "type: utils"] },
-              { "sourceTag": "type:utils", "onlyDependOnLibsWithTags": ["type:models", "type: utils"] },
+              { "sourceTag": "type:shell", "onlyDependOnLibsWithTags": ["type:shell", "type:feature", "type:data-access"] },
+              { "sourceTag": "type:feature", "onlyDependOnLibsWithTags": ["type: feature", "type:data-access", "type:ui", "type:utils", "type:models"] },
+              { "sourceTag": "type:data-access", "onlyDependOnLibsWithTags": ["type:data-access", "type:models", "type:utils"] },
+              { "sourceTag": "type:ui", "onlyDependOnLibsWithTags": ["type:ui", "type:models", "type:utils"] },
+              { "sourceTag": "type:utils", "onlyDependOnLibsWithTags": ["type:models", "type:utils"] },
               { "sourceTag": "type:models", "onlyDependOnLibsWithTags": ["type:models"] }
             ]
           }

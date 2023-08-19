@@ -26,7 +26,16 @@
       ],
       "@admin/customer/models": ["libs/admin/customer/models/src/index.ts"],
       "@admin/customer/shell": ["libs/admin/customer/shell/src/index.ts"],
-      "@shared/models": ["libs/shared/models/src/index.ts"]
+      "@admin/customer/utils": ["libs/admin/customer/utils/src/index.ts"],
+      "@admin/shared/data-access": [
+        "libs/admin/shared/data-access/src/index.ts"
+      ],
+      "@admin/shared/utils": ["libs/admin/shared/utils/src/index.ts"],
+      "@admin/shell": [
+        "libs/admin/shell/feature/src/index.ts"
+      ],
+      "@shared/models": ["libs/shared/models/src/index.ts"],
+      "@shared/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

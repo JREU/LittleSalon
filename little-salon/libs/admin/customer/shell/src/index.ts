@@ -1,4 +1,4 @@
-export * from './lib/shell.module';
-export * from './lib/lib.routes';
+export * from './lib/customer-shell.module';
+export * from './lib/customer.routes';
 
-export * from './lib/lib.routes';
+export * from './lib/customer.routes';

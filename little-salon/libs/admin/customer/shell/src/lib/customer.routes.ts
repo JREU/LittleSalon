@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
 
-export const shellRoutes: Route[] = [
+export const customerRoutes: Route[] = [
     {        
         path: '',
         loadComponent: () => import('@admin/customer/list').then(m => m.ListComponent)

@@ -18,8 +18,12 @@ export class CustomerUtil {
      */
     static toCustomer(customerDto: CustomerDto): Customer {        
         return {
-            ...customerDto,
+            id: customerDto.id,
+            email: customerDto.email,
+            firstName: customerDto.firstName,
+            lastName: customerDto.lastName,
+            phoneNumber: customerDto.phoneNumber,
             address: AddressUtil.toAddress(customerDto.address)
-        };        
+        };
     }
 }

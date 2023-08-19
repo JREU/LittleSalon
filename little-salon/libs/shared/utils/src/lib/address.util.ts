@@ -8,7 +8,10 @@ export class AddressUtil {
      */
     static toAddress(addressDto: AddressDto): Address {
         return {
-            ...addressDto
+            city: addressDto.city,
+            houseNumber: addressDto.houseNumber,
+            postalCode: addressDto.postalCode,
+            street: addressDto.street
         };
     }
 }
